@@ -1,0 +1,75 @@
+.scholarship-container {
+  margin-top: 120px;
+}
+
+.scholarhip-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: teal;
+}
+.container-scholar-para {
+  font-size: 20px;
+}
+
+.scholarshp-img img {
+  width: 760px;
+  height: 300px;
+}
+
+.scholarshp-img {
+  display: flex;
+  justify-content: center;
+}
+
+.scholarship-benefits {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.scholarship-container {
+  padding: 0 16px;
+}
+
+.scholarhip-header1 {
+  color: teal;
+}
+
+.scholarhip-header2 {
+  color: teal;
+}
+
+.scholarhip-header3 {
+  color: teal;
+}
+
+@media (max-width: 768px) {
+  .scholarship-container {
+    padding: 0 16px;
+  }
+  .scholarshp-img img {
+    width: 100%;
+    /* Make the image fill the container width */
+    height: auto;
+    /* Maintain the aspect ratio */
+    margin-left: 0;
+    /* Reset margin for responsiveness */
+  }
+  .container-scholar-para {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .scholarshp-img img {
+    width: 100%;
+    /* Make the image fill the container width */
+    height: auto;
+    /* Maintain the aspect ratio */
+    margin-left: 0;
+    /* Reset margin for responsiveness */
+  }
+  .container-scholar-para {
+    font-size: 16px;
+  }
+}
